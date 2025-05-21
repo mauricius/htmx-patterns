@@ -1,3 +1,27 @@
+.toc {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 99;
+}
+
+.dropdown ul {
+  max-height: 80vh;
+  overflow: auto;
+}
+
+#prev {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+#next {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
+
 ul.none li {
   list-style: none;
 }

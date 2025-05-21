@@ -18,7 +18,7 @@ Route::group(['prefix' => 'presentation'], function () {
 });
 
 Route::post('/clicked', function () {
-    return "<p><b>You clicked the button!</b></p>";
+    return sprintf("<p><b>%s says: you clicked the button!</b></p>", config()->get('app.name'));
 });
 
 Route::get('/info', function () {

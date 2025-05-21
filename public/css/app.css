@@ -1,0 +1,16 @@
+ul.none li {
+  list-style: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}

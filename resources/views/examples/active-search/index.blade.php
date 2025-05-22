@@ -34,7 +34,7 @@
                     aria-label="Search"
                     value="{{ request()->input('search') }}"
                     hx-get="{{ action([ActiveSearchController::class, 'index']) }}"
-                    hx-trigger="input changed delay:500ms, keyup[key=='Enter']"
+                    hx-trigger="input changed delay:500ms"
                     hx-target="#rows"
                     hx-push-url="true"
                     hx-indicator=".htmx-indicator"

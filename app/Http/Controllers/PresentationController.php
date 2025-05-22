@@ -29,7 +29,6 @@ final readonly class PresentationController
         'hx-target',
         'hx-trigger',
         'hx-select',
-        'hx-vals',
         'headers',
         'provide-feedback',
         'classes',

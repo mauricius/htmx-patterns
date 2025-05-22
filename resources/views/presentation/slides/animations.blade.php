@@ -42,9 +42,12 @@
     <p><span style="color: #3364a3">htmx</span> allows you to use CSS transitions in many situations using only HTML and CSS.</p>
 
     <h2 class="animate__animated"
+        style="cursor: pointer"
         hx-on:click="htmx.addClass(this, 'animate__backOutUp');"
         hx-get="/animations" hx-trigger="click delay:1s" hx-swap="outerHTML"
     >Animate Me</h2>
+
+    <hr>
 
     <pre data-lang="html" style="background-color:#1f2329;color:#abb2bf;" class="language-html "><code class="language-html" data-lang="html"><span>&lt;</span><span style="color:#e06c75;">div </span><span style="color:#d19a66;">class</span><span>=</span><span style="color:#98c379;">"slide-it"</span><span>&gt;
 </span><span>   &lt;</span><span style="color:#e06c75;">h1</span><span>&gt;Initial Content&lt;/</span><span style="color:#e06c75;">h1</span><span>&gt;

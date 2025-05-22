@@ -18,8 +18,7 @@
 <span style="color:#d19a66;">hx-swap</span><span>=</span><span style="color:#98c379;">"innerHTML|outerHTML|beforebegin|afterbegin|beforeend|afterend|..."</span>
 <span style="color:#d19a66;">hx-target</span><span>=</span><span style="color:#98c379;">"#element"</span>
 <span style="color:#d19a66;">hx-trigger</span><span>=</span><span style="color:#98c379;">"load|click|mouseover|keydown|every 1s"</span>
-<span style="color:#d19a66;">hx-select</span><span>=</span><span style="color:#98c379;">"#element"</span>
-<span style="color:#d19a66;">hx-vals</span><span>=</span><span style="color:#98c379;">'{"myVal": "My Value"}'</span></code></pre>
+<span style="color:#d19a66;">hx-select</span><span>=</span><span style="color:#98c379;">"#element"</span></code></pre>
         </div>
     </div>
 @endsection
